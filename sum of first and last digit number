@@ -1,0 +1,18 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int n,last,first;
+    printf("enter a number");
+    scanf("%d",&n);
+    last=n%10;
+    while(n!=0)
+    {
+      first=n%10;
+       n=n/10;
+       
+    }
+    printf("first and last digit of number=%d",first+last);
+
+    return 0;
+}
